@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     // Menú móvil (hamburguesa)
     const burger = document.querySelector('.burger');
-    const nav = document.querySelector('.nav-links');
+    const nav = document.querySelector('.navigation');
 
     if (burger && nav) {
         const toggleMenu = (force) => {
@@ -20,8 +20,8 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // Animación de aparición de tarjetas al hacer scroll
-    const cards = document.querySelectorAll('.card');
+    // Animación de aparición de elementos al hacer scroll
+    const animated = document.querySelectorAll('.card, .step, .feature, .side');
 
     if ('IntersectionObserver' in window) {
         const observer = new IntersectionObserver((entries) => {
@@ -33,8 +33,8 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         }, { threshold: 0.15 });
 
-        cards.forEach(card => observer.observe(card));
+        animated.forEach(el => observer.observe(el));
     } else {
-        cards.forEach(card => card.classList.add('visible'));
+        animated.forEach(el => el.classList.add('visible'));
     }
 });
