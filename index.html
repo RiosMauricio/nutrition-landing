@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="NutriBienestar: comunidad de nutrición familiar. Recetarios descargables y guías elaboradas por Candela Agustina Rios.">
+    <meta name="theme-color" content="#2E7D32">
+    <meta property="og:title" content="NutriBienestar | Comunidad de Nutrición">
+    <meta property="og:description" content="Recetarios gratuitos y guías de nutrición para mejorar la alimentación de toda la familia.">
+    <meta property="og:type" content="website">
+    <title>NutriBienestar | Comunidad de Nutrición</title>
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">NutriBienestar</div>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#articulos">Artículos</a></li>
+                <li><a href="#recetarios">Recetarios</a></li>
+                <li><a href="#comunidad">Comunidad</a></li>
+                <li><a href="#autora">Sobre mí</a></li>
+            </ul>
+            <button class="burger" aria-label="Abrir menú" aria-expanded="false">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero">
+            <div class="hero-content">
+                <span class="hero-pill">Comunidad de nutrición familiar</span>
+                <h1>Transforma tu vida a través de la nutrición</h1>
+                <p>Guías y recetarios gratuitos, pensados para mejorar la alimentación de toda la familia con opciones
+                    prácticas, ricas y nutritivas.</p>
+                <div class="hero-actions">
+                    <a href="#recetarios" class="btn-primary">Explorar recursos</a>
+                    <a href="#comunidad" class="btn-ghost">Comunidad</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat"><strong>3</strong><span>recursos gratuitos</span></div>
+                    <div class="stat"><strong>PDF</strong><span>descargables</span></div>
+                    <div class="stat"><strong>Nuevo</strong><span>contenido en camino</span></div>
+                </div>
+            </div>
+        </section>
+
+        <div class="topics-strip">
+            <span class="topics-label">Explorá por tema</span>
+            <div class="topics">
+                <a class="chip" href="#articulos">#Legumbres</a>
+                <a class="chip" href="#recetarios">#ColacionesSaludables</a>
+                <a class="chip" href="#recetarios">#RecetasDulcesYSaladas</a>
+                <a class="chip" href="#articulos">#DíaMundialDeLaAlimentación</a>
+                <a class="chip" href="#recetarios">#ViandasEscolares</a>
+                <a class="chip" href="#articulos">#AlimentaciónFamiliar</a>
+            </div>
+        </div>
+
+        <section id="articulos" class="section-padding">
+            <h2>Artículos y guías</h2>
+            <p class="section-sub">Publicaciones educativas de la comunidad</p>
+            <div class="grid-container">
+                <article class="card">
+                    <img src="assets/cover-guia-legumbres.jpg" class="card-img"
+                        alt="Portada de la guía Legumbres en nuestra alimentación" loading="lazy">
+                    <div class="card-content">
+                        <div class="post-tags">
+                            <span class="tag tag-guide">Guía</span>
+                            <span class="tag">Legumbres</span>
+                        </div>
+                        <h3>Legumbres en nuestra alimentación</h3>
+                        <p>¿Por qué incorporarlas y cómo hacerlo? Remojo, cocción, antinutrientes, aquafaba y todos los
+                            beneficios de estos pequeños grandes aliados.</p>
+                        <div class="post-meta">
+                            <span class="avatar">CR</span>
+                            <span class="meta-text">Candela Rios · PDF · 13 págs</span>
+                            <a href="assets/guia-legumbres.pdf" class="read-more" target="_blank"
+                                rel="noopener">Leer guía</a>
+                        </div>
+                    </div>
+                </article>
+
+                <div class="card soon-card">
+                    <div class="soon-inner">
+                        <span class="soon-plus">+</span>
+                        <p>Más artículos próximamente</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="recetarios" class="section-padding bg-light">
+            <h2>Recetarios</h2>
+            <p class="section-sub">Descargables compartidos por la comunidad</p>
+            <div class="grid-container">
+
+                <div class="card">
+                    <img src="assets/cover-colaciones.jpg" class="card-img"
+                        alt="Portada del recetario Colaciones Saludables" loading="lazy">
+                    <div class="card-content">
+                        <div class="post-tags">
+                            <span class="tag tag-recipe">Recetario</span>
+                            <span class="tag">Para el cole</span>
+                        </div>
+                        <h3>Colaciones Saludables</h3>
+                        <p>Galletitas de choco-garbanzo, donitas de manzana, cubitos helados de banana, aguas saborizadas
+                            y una guía de NutriConsejos.</p>
+                        <div class="post-meta">
+                            <span class="avatar">CR</span>
+                            <span class="meta-text">Candela Rios · PDF · 14 págs</span>
+                            <a href="assets/Recetario de colaciones saludables 1.pdf" class="btn-secondary"
+                                download>Descargar</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="assets/cover-recetario-legumbres.jpg" class="card-img"
+                        alt="Portada del recetario Las legumbres en nuestra alimentación" loading="lazy">
+                    <div class="card-content">
+                        <div class="post-tags">
+                            <span class="tag tag-recipe">Recetario</span>
+                            <span class="tag">Legumbres</span>
+                        </div>
+                        <h3>Legumbres: dulces y saladas</h3>
+                        <p>Galletas de lenteja y chocolate, cuadrados húmedos de porotos negros, grisines de garbanzo y
+                            pizza de lenteja. ¡Animate a innovar!</p>
+                        <div class="post-meta">
+                            <span class="avatar">CR</span>
+                            <span class="meta-text">Candela Rios · PDF · 7 págs</span>
+                            <a href="assets/recetario-legumbres.pdf" class="btn-secondary" download>Descargar</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card soon-card">
+                    <div class="soon-inner">
+                        <span class="soon-plus">+</span>
+                        <p>Más recetarios próximamente</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="comunidad" class="section-padding community-section">
+            <div class="community-card">
+                <span class="badge-soon">Próximamente</span>
+                <h2>Comunidad NutriBienestar</h2>
+                <p>Un espacio para compartir recetas, resolver consultas y aprender juntos sobre alimentación
+                    saludable. Muy pronto vas a poder sumarte, comentar y proponer temas.</p>
+                <div class="community-topics">
+                    <span class="topic-row"><span class="topic-dot"></span>Consultas de nutrición</span>
+                    <span class="topic-row"><span class="topic-dot"></span>Recetas de la comunidad</span>
+                    <span class="topic-row"><span class="topic-dot"></span>Mitos y verdades</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="autora" class="section-padding author-section">
+            <div class="author-content">
+                <span class="avatar avatar-lg">CR</span>
+                <h2>Sobre la Profesional</h2>
+                <p>Contenido desarrollado por <strong>Candela Agustina Rios</strong>, enfocado en mejorar la alimentación
+                    familiar a través de opciones prácticas, ricas y nutritivas.</p>
+                <div class="badge">Prácticas Profesionales Supervisadas UCSE DASS - HMI | 2026</div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 NutriBienestar por Candela Agustina Rios. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
